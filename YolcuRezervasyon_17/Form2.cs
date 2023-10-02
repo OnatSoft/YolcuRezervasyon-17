@@ -18,7 +18,7 @@ namespace YolcuRezervasyon_17
             InitializeComponent();
         }
 
-        SqlConnection connect = new SqlConnection(@"Data Source=LAPTOP-ONATSOFT\ONATSOFT;Initial Catalog=YolcuRezervasyonDB;Integrated Security=True");
+        SqlConnection connect = new SqlConnection(@"");
 
         private void btn_KaptanKaydet_Click(object sender, EventArgs e)
         {
